@@ -1,5 +1,5 @@
-FROM PYTHON
+FROM python
 WORKDIR /app
 COPY task.py .
-CMD [ "PYTHON","task.py" ]
+CMD [ "python","task.py" ]
 
